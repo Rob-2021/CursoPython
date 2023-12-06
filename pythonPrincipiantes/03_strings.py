@@ -1,5 +1,8 @@
 # Strings
 
+from cgi import print_arguments
+
+
 my_string = 'mi string'
 my_other_string = "mi otro string"
 
@@ -27,7 +30,7 @@ print(f"Mi Nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaquetado de caracteres
 
-lenguaje = 'Python'
+lenguaje = 'python'
 a, b, c, d, e, f = lenguaje
 
 print(a)
@@ -48,7 +51,23 @@ print(language_slice)
 language_slice = lenguaje[-2]
 print(language_slice)
 
+language_slice = lenguaje[0:6:2]
+print(language_slice)
+
 # Reverse
 
 reverse_language = lenguaje[::-1]
 print(reverse_language)
+
+#Funciones
+
+print(lenguaje.capitalize())
+print(lenguaje.upper())
+print(lenguaje.count("t"))
+print(lenguaje.isnumeric())
+print("1".isnumeric())
+print(lenguaje.lower())
+print(lenguaje.upper().isupper())
+print(lenguaje.lower().isupper())
+print(lenguaje.upper().islower())
+print(lenguaje.startswith("py"))
