@@ -98,7 +98,7 @@ def reverse(text):
     reversed_text = ""
     for index in range(len(text)):
         reversed_text += text[text_len - index - 1]
-        print(reversed_text)
+        #print(reversed_text)
     return reversed_text
     #return text[::-1]
 
