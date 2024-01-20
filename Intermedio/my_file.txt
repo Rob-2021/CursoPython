@@ -1,0 +1,6 @@
+Mi nombre es Brais
+Mi apellido es Moure
+35 anios
+Y mi lenguaje favorito es Python
+Aunque tambien c# es un buen lenguaje
+Y C++
