@@ -61,7 +61,6 @@ csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['name', 'surname', 'age', 'language', 'website'])
 csv_writer.writerow(['Brais', 'Moure', 35, 'Python', 'https://moure.dev'])
 csv_writer.writerow(['Ros', '', 2, 'C#', ''])
-csv_writer.writerows([['Brais', 'Moure', 35, 'Python', 'https://moure.dev'], ['Ros', '', 2, 'C#', '']])
 
 csv_file.close()
 
