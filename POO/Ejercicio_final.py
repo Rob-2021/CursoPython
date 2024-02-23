@@ -1,6 +1,6 @@
 from textblob import TextBlob
 
-class AnaliadorSentimientos:
+class AnalizadorSentimientos:
     def analizar_sentimientos(self, texto):
         analisis = TextBlob(texto)
         if analisis.sentiment.polarity > 0:
@@ -10,6 +10,6 @@ class AnaliadorSentimientos:
         else:
             return "Negativo"
 
-analizador = AnaliadorSentimientos()
+analizador = AnalizadorSentimientos()
 resultado = analizador.analizar_sentimientos('Hola como estas?')
 print(resultado)
