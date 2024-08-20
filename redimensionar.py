@@ -28,10 +28,10 @@ def resize_images_in_folder(folder_path, output_folder_path):
     print("¡Redimensionado completado!")
 
 # Ruta de la carpeta que contiene las imágenes originales
-folder_path = "D:\Trabajos\IA 2 - 2023-2\segundoParcial\puntalesMadera"
+folder_path = "D:\\Trabajos\\SIS-330 Inteligencia Artificial 3\\dataset_bill_4"
 
 # Ruta de la carpeta de salida para las imágenes redimensionadas
-output_folder_path = "D:\Trabajos\IA 2 - 2023-2\segundoParcial\puntalesMaderaRedimensionados"
+output_folder_path = "D:\\dataset\\billetesRedimensionadosSubir4"
 
 # Llama a la función para redimensionar todas las imágenes en la carpeta
 resize_images_in_folder(folder_path, output_folder_path)
